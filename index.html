@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <title>Naim Reza - Web Developer & Articled Student</title>
+
+  <!-- Basic SEO -->
+  <meta name="description" content="Naim Reza is a Web Developer and Articled Student at Mahfel Huq & Co. Passionate about tech-driven finance and building modern digital solutions.">
+  <meta name="keywords" content="Naim Reza, Web Developer, Articled Student, Chartered Accountant, Mahfel Huq & Co, Bangladesh, finance technology">
+  <meta name="author" content="Naim Reza">
+  <meta name="robots" content="index, follow">
+
+  <!-- Mobile Friendly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Open Graph (Facebook / LinkedIn) -->
+  <meta property="og:title" content="Naim Reza - Web Developer & Articled Student">
+  <meta property="og:description" content="Explore the professional profile of Naim Reza, Web Developer and Articled Student at Mahfel Huq & Co.">
+  <meta property="og:image" content="https://naimreza.com/images/naim-reza.jpg">
+  <meta property="og:url" content="https://naimreza.com">
+  <meta property="og:type" content="profile">
+
+  <!-- Alternate for Bangladesh domain -->
+  <link rel="alternate" hreflang="en" href="https://naimreza.com" />
+  <link rel="alternate" hreflang="bn-BD" href="https://naimreza.com.bd" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Naim Reza - Web Developer & Articled Student">
+  <meta name="twitter:description" content="Web Developer & Articled Student at Mahfel Huq & Co. Passionate about finance and technology.">
+  <meta name="twitter:image" content="https://naimreza.com/images/naim-reza.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/naim-reza.jpg" type="image/x-icon">
+
+  <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Naim Reza",
+    "url": "https://naimreza.com",
+    "alternateName": "https://naimreza.com.bd",
+    "image": "https://naimreza.com/images/profile.jpg",
+    "jobTitle": "Web Developer & Articled Student",
+    "worksFor": {
+        "@type": "Organization",
+        "name": "Mahfel Huq & Co."
+    },
+    "sameAs": [
+        "https://www.linkedin.com/in/naim-reza",
+        "https://github.com/naimreza-me",
+        "https://facebook.com/naimreza.nr"
+    ]
+    }
+    </script>
+
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="profile-card">
+  <!-- Profile -->
+  <img src="images/naim-reza.jpg" alt="Profile" class="profile">
+  <div class="name">Naim Reza</div>
+  <div class="title">Professional Web Developer | Articled Student at Mahfel Huq & Co.</div>
+
+  <!-- Action buttons -->
+  <div class="actions">
+    <a href="tel:+8801790909020" title="Call">☎</a>
+    <a href="mailto:naimreza8@gmail.com"  title="Email">✉️</a>
+    <a href="javascript:void(0)" id="shareBtn" title="Share">➦</a>
+    <a href="javascript:void(0)" id="qrBtn" title="QR">⛆</a>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab-link active" data-tab="about">ABOUT</button>
+    <button class="tab-link" data-tab="links">LINKS</button>
+  </div>
+
+  <!-- Tab Content -->
+  <div id="about" class="tab-content">
+    <div class="info-section">
+      <h4>About</h4>
+      <div class="info-item"><b>Title:</b> Articled Student</div>
+      <div class="info-item"><b>Company:</b> Mahfel Huq & Co.</div>
+      <div class="info-item"><b>Website:</b> <a href="https://www.mahfelhuq.com" target="_blank">www.mahfelhuq.com</a></div>
+    </div>
+    <div class="info-section">
+      <h4>Professional Degree</h4>
+      <div class="info-item"><b>Institute:</b> Institute of Chartered Accountants of Bangladesh (ICAB)</div>
+      <div class="info-item"><b>Duration:</b> Sep 01, 2024 - Aug 31, 2027</div>
+    </div>
+    <div class="info-section">
+      <h4>Acadamic</h4>
+      <div class="info-item"><b>University:</b> Stamford University Bangladesh</div>
+      <div class="info-item"><b>Department:</b> Accounting & Information System</div>
+      <div class="info-item"><b>Duration:</b> Jan 01, 2020 - Jun 30, 2024</div>
+    </div>
+    <div class="info-section">
+      <h4>Contact</h4>
+      <div class="info-item">📧 naimreza8@gmail.com</div>
+      <div class="info-item">📞 +88 01790-909020</div>
+    </div>
+  </div>
+
+  <div id="links" class="tab-content" style="display:none;">
+    <div class="info-section">
+      <h4>Links</h4>
+      <div class="info-item"><a href="https://nsdevhub.com" target="_blank">Portfolio</a></div>
+      <div class="info-item"><a href="https://www.facebook.com/naimreza.nr" target="_blank">Facebook</a></div>
+      <div class="info-item"><a href="https://www.linkedin.com/in/naim-reza" target="_blank">Linkedin</a></div>
+    </div>
+  </div>
+
+  <a href="https://nsdevhub.com" target="_blank" class="save-btn">CONTACT NOW</a>
+</div>
+
+<!-- Share Popup -->
+<div class="popup" id="sharePopup">
+  <div class="popup-content">
+    <button class="close-btn" onclick="closePopup('sharePopup')">✖</button>
+    <h3>Share Profile</h3>
+    <button onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+window.location.href)">Facebook</button>
+    <button onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url='+window.location.href)">LinkedIn</button>
+    <button onclick="window.open('https://api.whatsapp.com/send?text='+window.location.href)">WhatsApp</button>
+  </div>
+</div>
+
+<!-- QR Popup -->
+<div class="popup" id="qrPopup">
+  <div class="popup-content">
+    <button class="close-btn" onclick="closePopup('qrPopup')">✖</button>
+    <h3>WhatsApp QR Code</h3>
+    <img src="images/whatsapp.png" alt="QR Code">
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
